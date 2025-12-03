@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolução de Exercícios com Loop Do-While</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .exercicios { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px; }
+        button { padding: 10px; border: none; border-radius: 5px; cursor: pointer; background-color: #ff9900; color: white; transition: background-color 0.3s; }
+        button:hover { background-color: #cc7a00; }
+        #output { border: 1px solid #ccc; padding: 15px; min-height: 50px; background-color: #fff4e5; white-space: pre-wrap; margin-top: 20px;}
+        .titulo-output { font-weight: bold; margin-bottom: 10px; color: #cc7a00; }
+    </style>
+</head>
+<body>
+    <h1>🔁 Exercícios de JavaScript (Loop Do-While)</h1>
+
+    <div class="exercicios">
+        <button onclick="executarExercicioDoWhile(1)">1) 1 a 10</button>
+        <button onclick="executarExercicioDoWhile(2)">2) Soma 1 a 100</button>
+        <button onclick="executarExercicioDoWhile(3)">3) Pares 1 a 50</button>
+        <button onclick="executarExercicioDoWhile(4)">4) Média 5 Números (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(5)">5) Tabuada (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(6)">6) Divisores (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(7)">7) Número Primo (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(8)">8) Fibonacci até N (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(9)">9) Média Idade 5 Pessoas (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(10)">10) Primeiros 20 Fibonacci</button>
+        <button onclick="executarExercicioDoWhile(11)">11) Soma Pares até N (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(12)">12) Ímpares 1 a 50</button>
+        <button onclick="executarExercicioDoWhile(13)">13) Dígitos Separados (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(14)">14) Fatorial (Prompt)</button>
+        <button onclick="executarExercicioDoWhile(15)">15) Média Idade até "fim" (Prompt)</button>
+    </div>
+
+    <hr>
+
+    <div class="titulo-output">Resultado do Exercício:</div>
+    <div id="output_do_while">Clique em um botão para ver o resultado aqui.</div>
+
+    <script src="script_do_while.js"></script>
+</body>
+</html>''
